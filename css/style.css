@@ -43,7 +43,7 @@ header{
 .img1 .p2{
     font-size: 50px;
     color: white;
-   align-items: center;
+   text-align: center;
     padding: 0px 400px 300px 400px;
 }
 .menus123{
@@ -62,5 +62,44 @@ header{
     color: white;
     font-size: 50px;
     text-align: center;
-    padding:260px;
+    padding:230px;
+}
+.img2 p{
+    color: white;
+    font-size: 40px;
+    padding: 0px 400px 200px 400px;
+    text-align: center;
+}
+.button {
+    background-color: #9A7541;
+    color: white;
+    text-decoration: none;
+    padding: 20px 100px 20px 100px ;
+    border-radius: 50px;
+}
+.button1{
+    text-align: center;
+    padding: 0px 0px 250px 0px;
+}
+.dresscode{
+        height: 100vh; /* ocupa a tela toda */
+    background: linear-gradient(
+        to right,
+        #D6C6A8 50%,   /* lado esquerdo */
+        #64727E 50%    /* lado direito */
+    );
+    display: flex;
+}
+.dresscode div img{
+    border-radius: 60px;
+    margin: 50px 100px 0px 0px;
+    align-items: center;
+}
+.azul h2{
+    background-color: #64727E;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 100px;
 }
