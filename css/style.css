@@ -52,3 +52,15 @@ header{
 .menus123 img{
     padding: 10px;
 }
+.img2 {
+  background-image: url("imgs/image\ 6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img2 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding:260px;
+}
