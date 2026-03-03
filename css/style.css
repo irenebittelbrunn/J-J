@@ -35,13 +35,13 @@ header{
   background-position: center;
 }
 .img1 .p1{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
     padding: 200px 500px 200px 500px;
 }
 .img1 .p2{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
    text-align: center;
     padding: 0px 400px 300px 400px;
@@ -66,7 +66,7 @@ header{
 }
 .img2 p{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px 400px 200px 400px;
     text-align: center;
 }
