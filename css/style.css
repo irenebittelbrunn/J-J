@@ -16,7 +16,7 @@ header{
 }
 .title1 h1{
     padding: 0px 20px 0px 10px;
-    font-size: 25px;
+    font-size: 3rem;
 }
 .title1 p{
     padding: 10px 0px 10px 0px ;
@@ -45,12 +45,6 @@ header{
     color: white;
    text-align: center;
     padding: 0px 400px 300px 400px;
-}
-.menus123{
-    text-align: center;
-}
-.menus123 img{
-    padding: 10px;
 }
 .img2 {
   background-image: url("imgs/image\ 6.jpg");
@@ -82,24 +76,113 @@ header{
     padding: 0px 0px 250px 0px;
 }
 .dresscode{
-        height: 100vh; /* ocupa a tela toda */
+        height: 100vh;
     background: linear-gradient(
         to right,
-        #D6C6A8 50%,   /* lado esquerdo */
-        #64727E 50%    /* lado direito */
+        #D6C6A8 50%, 
+        #64727E 50%    
     );
     display: flex;
-}
-.dresscode div img{
-    border-radius: 60px;
-    margin: 50px 100px 0px 0px;
-    align-items: center;
+    padding: 0px 10vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .azul h2{
-    background-color: #64727E;
+    background-color: #0B1C2D;
     color: white;
     padding: 30px;
     border-radius: 30px;
     text-align: center;
     margin: 100px;
+}
+.azul p{
+    text-align: center;
+    padding: 100px;
+    font-size: 25px;
+    color: #0B1C2D;
+}
+.dresscode .azul{
+    width: 30%;
+}
+.dresscode .img3{
+    width: 30%;
+}
+.dresscode .caramelo{
+    width: 30%;
+}
+.img3{
+ background-image: url(imgs/image\ 7.png);
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.caramelo h2{
+background-color: #9A7541;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 100px;
+}
+.caramelo p{
+        text-align: center;
+    padding: 100px;
+    font-size: 25px;
+    color: white;
+}
+.pzinho{   
+     text-align: center;
+    padding: 10px 350px 10px 350px;
+    font-size: 25px;
+    color: white;
+}
+.span1{
+    color: #0B1C2D;
+}
+.img3 h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+.img3 p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+section.menus123{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4vw 30%;
+    gap: 4vw;
+}
+.our{
+    background-image: url(imgs/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    padding: 10vw 0 10vw 0;
+    text-align: center;
+    
+}
+.the{background-image: url(imgs/image\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    padding: 10vw 0 10vw 0;
+    text-align: center;
+}
+.rs{background-image: url(imgs/image\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    padding: 10vw 0 10vw 0;
+    text-align: center;
+}
+.re{background-image: url(imgs/image\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    padding: 10vw 0 10vw 0;
+    text-align: center;
 }
