@@ -6,6 +6,7 @@
 .title1{
     display: flex;
     color: white;
+    
 }
 
 .menu a{
@@ -18,9 +19,11 @@ header{
     padding: 1.25rem 0 1.25rem 1.8rem;
 }
 
-.title1 h1{
+.title1 a{
     padding: 0 1.2rem 0 0.6rem;
     font-size: 3rem;
+    color: white;
+    text-decoration: none;
 }
 
 .title1 p{
@@ -232,7 +235,7 @@ section.menus123{
 .rs a{
 color: white;
 font-size: 1.5rem;
-}
+}f
 .re a{
     color: white;
     font-size: 1.5rem;
@@ -261,5 +264,152 @@ width: 50%;
 }
 .one3{
     width: 100%;
-   
+    padding: 150px 0px 0px 0px;
+  color: white;
+  font-size: 3rem;
+}
+.botaaao{
+    display: inline-block;
+    padding: 20px 170px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 40px 0px 40px 0px;
+
+    background: linear-gradient(90deg, #b88b4a, #000000);
+
+    text-align: center;
+}
+.one3 p{
+    font-size: 1.9rem;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+footer h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 45px 0px 19px 0px;
+}
+footer h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 0px;
+    padding: 0px 0px 20px 0px;
+}
+footer{
+    background-color: #9A7541;
+}
+footer section div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 20px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* TABLET */
+@media (max-width: 768px){
+
+.title h1{
+    font-size: 6rem;
+}
+
+.img1 .p1,
+.img1 .p2{
+    font-size: 1.8rem;
+    padding: 6rem 10vw;
+}
+
+section.menus123{
+    padding: 4vw 15%;
+}
+
+.dresscode{
+    flex-direction: column;
+    height: auto;
+}
+
+.dresscode .azul,
+.dresscode .img3,
+.dresscode .caramelo{
+    width: 100%;
+}
+
+.azul p,
+.caramelo p{
+    padding: 3rem;
+}
+
+.img2 h1{
+    padding: 8rem 0 2rem 0;
+}
+
+.img2 p{
+    padding: 0 10vw 6rem 10vw;
+}
+
+.ultimo .one1,
+.ultimo .one2{
+    width: 100%;
+}
+
+}
+
+/* CELULAR */
+@media (max-width: 480px){
+
+.menu1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    padding: 1rem 0;
+}
+
+.menu nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 4rem;
+}
+
+.img1 .p1,
+.img1 .p2{
+    font-size: 1.6rem;
+    padding: 4rem 8vw;
+}
+
+section.menus123{
+    grid-template-columns: 1fr;
+    padding: 8vw 20%;
+}
+
+.our,
+.the,
+.rs,
+.re{
+    padding: 18vw 0;
+}
+
+.button{
+    padding: 1rem 4rem;
+}
+
+.botaaao{
+    padding: 18px 80px;
+    font-size: 1.6rem;
+}
+
+.img2 p{
+    font-size: 1.5rem;
+}
+
+.one3{
+    font-size: 2rem;
+}
+
 }
